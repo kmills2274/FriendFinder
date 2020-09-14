@@ -1,5 +1,4 @@
 // Variable to hold the array of "friends" data
-
 var friendsArray = [
     {
       friendName: "Carlos",
