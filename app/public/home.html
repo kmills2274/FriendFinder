@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <title>"Dream Phone" | Friend Finder</title>
+
+    <base href="/">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>     
+        body {
+            background-image: url("https://gameopolis.ca/wp/wp-content/uploads/2015/10/IMG_20151014_164126.jpg");
+        }
+
+        .container {
+        background-image: url("./assets/game1.jpg");
+        margin-top: 150px;
+        margin-bottom: 150px;
+        }
+
+        .jumbotron {
+            border-style: solid;
+            border-width: 3px;
+            border-color: mediumturquoise;
+            background-color: white;
+        }
+
+        h1 {
+            margin-top: 30px;
+            color: rgb(255, 0, 106);
+        }
+
+        span.title {
+            color: rgb(255, 232, 103);
+            font-weight: bold;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: rgb(255, 0, 106);
+        }
+
+        span.divider {
+            color: rebeccapurple;
+        }
+
+        h2 {
+            color: mediumturquoise;
+        }
+
+        .btn-dark {
+            margin-top: 20px;
+            margin-bottom: 50px;
+            background-color: rebeccapurple;
+        }
+
+        .links {
+            margin-top: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+  
+    <div class="jumbotron">
+        <h2><span class="divider"><i class="fa fa-phone"></i></span>  <span class="title">Dream Phone</span> <span class="divider"> | </span> Friend Finder <span class="divider"><i class="fa fa-facebook-square" aria-hidden="true"></i></span></h2>
+        <hr>
+        <div class="text-center">
+        <h1>Your <span class="title">DREAM PHONE</span> date is only a quiz away! </h1>
+        <br>
+        <h4>Take our quiz to meet your match! Then you and your match can have a DREAM PHONE date!</h4>
+        <br>
+            <div class="quiz-button">
+            <a href="/survey"><button type="button" class="btn btn-lg btn-dark"><h4> Match Me</h4></button></a>
+            </div>  
+        
+            <!-- Embedded Youtube video of Dream Phone Commercial -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pqYsQgDqlmg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <!-- Links to Friends API & Github Repo -->
+        <div class="links float-right">
+            <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/kmills2274/FriendFinder">GitHub Repo</a></p>
+          </div>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
